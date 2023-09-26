@@ -18,17 +18,55 @@
 
 }
 
+/* ---------サイドヘッダー----------------- */
+
 .side-header{
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.user-name{
+
+}
+
+.user-name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+
+.chat-new{
+  border: 1px lightgreen solid;
+  padding: 14px;
+}
+
+.chat-new a{
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+/* ---------サイドメイン----------------- */
 
 .side-content{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
+.side-content-box{
+  padding: 20px 20px 40px 20px;
+}
+
+.side-content-box a{
+  color: white;
+  text-decoration: none;
+}
 
 /* ########################## */
    /* ここからメインコンテンツ */
