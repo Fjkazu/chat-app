@@ -50,7 +50,7 @@
   text-decoration: none;
 }
 
-/* ---------サイドメイン----------------- */
+/* ---------サイドボディ----------------- */
 
 .side-content{
   background-color: #2f3e51;
@@ -78,20 +78,110 @@
   background-color: #ffffff;
 }
 
-
+/* ---------メインヘッダー----------------- */
 .main-header{
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.overview{
+  padding-top: 36px ;
+  font-size: 24px;
+  color: #333;
+}
+
+.end-btn{
+  border: 1px solid darkred;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.end-btn a{
+  color: darkred;
+  text-decoration: none;
+  margin: 20px;
+}
+
+/* ---------メインボディ----------------- */
 .main-content{
   height: calc(100vh - 100px - 90px);
   background-color: #fafafa;
   padding: 46px 40px 0 40px;
+  overflow: scroll;
 }
 
+.chat{
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 40px;
+}
+
+.chat-data{
+  display: flex;
+  margin: 10px 0;
+}
+
+.chat-user{
+  font-size: 16px;
+  color: #434A54;
+}
+
+.chat-days{
+  font-size: 12px;
+  color: #999;
+  margin-left: 10px;
+}
+
+.chat-message{
+  font-size: 14px;
+  color: #434a54;
+}
+
+/* ---------メインフッター----------------- */
 .main-footer{
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
+  display: flex;
+}
+
+.form{
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.footer-form{
+  padding: 0 10px;
+  margin-right: 15px;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.footer-send{
+  height: 50px;
+  background-color: #38aef0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 0 20px;
+  margin-left: 15px;
 }
