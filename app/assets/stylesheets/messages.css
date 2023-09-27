@@ -59,11 +59,11 @@
   overflow: scroll;
 }
 
-.side-content-box{
+.room{
   padding: 20px 20px 40px 20px;
 }
 
-.side-content-box a{
+.room-name a{
   color: white;
   text-decoration: none;
 }
